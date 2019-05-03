@@ -20,7 +20,7 @@ while True:
   sleep(sleeptime)
   
   if sleeptime > 0:
-    sleeptime -= 0.2
+    sleeptime -= .2
   else:
-    sleeptime = 0
+    sleeptime = .01
         
