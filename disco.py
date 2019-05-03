@@ -21,6 +21,6 @@ while True:
   
   if sleeptime > 0:
     sleeptime -= .2
-  else:
-    sleeptime = .01
+  if sleeptime < 0:
+    sleeptime = 0
         
