@@ -13,7 +13,7 @@ def rndColour():
     return(rndRed, rndGreen, rndBlue)
 # solid color for all pixels
 # s.clear(r)
-sleeptime = 10 
+sleeptime = 6
 
 while True:
   s.clear(rndColour())
